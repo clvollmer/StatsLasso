@@ -1,9 +1,13 @@
 \documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usetheme{Berlin}
+\usecolortheme{beaver}
 
-% \usepackage{beamerthemesplit} // Activate for custom appearance
+%\usepackage{beamerthemesplit} // Activate for custom appearance
 
-\title{Example Presentation Created with the Beamer Package}
-\author{Till Tantau}
+\title{The Lasso Method of Parameter Selection}
+\author{C. Kinstley, A. Nabar, T. Williams, C. Vollmer }
+
 \date{\today}
 
 \begin{document}
@@ -13,8 +17,28 @@
 \section[Outline]{}
 \frame{\tableofcontents}
 
-\section{Introduction}
-\subsection{Overview of the Beamer Class}
+\section{Improving OLS}
+\subsection{Ridge}
+\subsection{Subset Selection}
+\subsection{Lasso}
+
+\section{Tuning parameter estimation}
+\subsection{Cross-Validation}
+\subsection{BIC}
+
+\section{Oracle Property}
+
+\frame
+{
+\frametitle{Improving OLS}
+	In OLS regression we minimize
+	\begin{equation*}
+\sum_{i=1}^N\{(y_i - \alpha-\sum_j\beta_jx_{ij} )^2 \}
+	\end{equation*}
+
+}
+
+
 \frame
 {
   \frametitle{Features of the Beamer Class}

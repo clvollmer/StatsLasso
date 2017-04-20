@@ -1,3 +1,9 @@
 \beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
-\beamer@subsectionintoc {2}{1}{Overview of the Beamer Class}{3}{0}{1}
+\beamer@sectionintoc {2}{Improving OLS}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Ridge}{3}{0}{1}
+\beamer@subsectionintoc {2}{2}{Subset Selection}{3}{0}{1}
+\beamer@subsectionintoc {2}{3}{Lasso}{3}{0}{1}
+\beamer@sectionintoc {3}{Tuning parameter estimation}{3}{0}{2}
+\beamer@subsectionintoc {3}{1}{Cross-Validation}{3}{0}{2}
+\beamer@subsectionintoc {3}{2}{BIC}{3}{0}{2}
+\beamer@sectionintoc {4}{Oracle Property}{3}{0}{3}

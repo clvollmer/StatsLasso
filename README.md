@@ -1,2 +1,2 @@
 # StatsLasso
-Statististics Project
+Statistics Project in which we compare different regression techniques.
